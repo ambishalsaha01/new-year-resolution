@@ -1,0 +1,196 @@
+/* Common CSS Style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.contact-btn{
+    font-size: 16px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #151414;
+}
+
+/* Header Section Style */
+header{
+    background-image: url("../images/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.banner{
+    padding: 200px 100px;
+    text-align: end;
+    color: white;
+}
+
+.banner-title{
+    font-size: 56px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.banner-description{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Failure Section */
+.failur-container{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.failure-img img{
+    width: 470px;
+}
+
+.failure-content{
+    margin-left: 50px;
+}
+
+.failure-title{
+    margin-bottom: 25px;
+}
+
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.failure-list{
+    list-style: none;
+    line-height: 30px; 
+}
+
+.failure-list span{
+    font-size: 18px; 
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* My Plan Section */
+.my-plan{
+    margin-top: 80px;
+}
+
+.plan-title{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.plan-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-description{
+    font-size: 26px;
+    color: #737272;
+    font-weight: 700;
+}
+
+/* Testimonial Section */
+.testimonial{
+    margin-top: 80px;
+    background-image: linear-gradient(to left, rgba(251, 251, 251, 0.59),rgb(0, 95, 172)), url('../images/watch.png');
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+
+.testimonial-title{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Contact Me Section */
+.contact-container{
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 40px 50px;
+    box-shadow: 0 0 5px #151414;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-title{
+    margin-bottom: 20px;
+}
+
+.contact-container form input{
+    margin-bottom: 10px;
+    border: 2px solid #16D887;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.submit-btn{
+    background-color: #16D887;
+}
+
+/* Footer Section */
+.footer{
+    background-color: #151414;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer-title,
+.subs-title{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-description{
+    margin-bottom: 20px;
+}
+
+.footer-social{
+    margin-top: 25px;
+}
+
+.footer-subscription input{
+    margin-bottom: 10px;
+    border: 2px solid #ffffff;
+    background-color: #151414;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.subs-btn{
+    background-color: #16D887;
+}
